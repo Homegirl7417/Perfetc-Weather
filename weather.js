@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { PropTypes } from "prop-types";
 import { MaterialCommunityIcons } from '@expo/vector-icons'; 
+import { LinearGradient } from 'expo-linear-gradient';
 export default function Weather ({temp}) {
     return (
         <View style={styles.container}>
